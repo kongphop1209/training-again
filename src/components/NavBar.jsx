@@ -13,10 +13,10 @@ function NavBar() {
                 <div className='searching-bar pt-3 pb-3 w-50'>
                     <a>
                         <a className='all-cate me-3 ms-4'>
-                            <a style={{color: 'black',}}>All categories</a>
-                            <FontAwesomeIcon icon={faAngleDown}/>
+                            <a href='#' className='me-2 ms-'>All categories</a>
+                            <FontAwesomeIcon style={{color:'black'}} icon={faAngleDown}/>
                         </a>
-                        <a>Searching anything</a>
+                        <input className="search-input" type="text" placeholder="Search Anything" />
                     </a>
                     <a className='me-3' ><FontAwesomeIcon icon={faSearch}/></a>
                 </div>
