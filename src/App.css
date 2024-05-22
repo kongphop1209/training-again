@@ -86,7 +86,7 @@
 
 }
 
-@media (max-width:1400px) {
+@media (max-width:1431.20px) {
   .account-name-show{
     display: none;
   }
@@ -99,6 +99,8 @@
 @media (max-width: 512px) {
   body {
     min-width: 512px;
-    overflow-x: hidden; 
+    overflow-x: scroll; 
   }
 }
+
+/* ----------------------------------------------------NavBar-------------------------------------------------------- */
