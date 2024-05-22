@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-bar-con {
+  background: linear-gradient(to right, #860101,#AD00FF);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+}
