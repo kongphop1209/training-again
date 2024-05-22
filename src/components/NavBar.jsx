@@ -5,8 +5,8 @@ function NavBar() {
     return (
         <div>
             <a className='nav-bar-con'>
-                <div>
-                    <a href="/"><img src={Logo} /></a>
+                <div >
+                    <a className='col-md-6 col-xxl-3' href="/"><img src={Logo} /></a>
                 </div>
                 <a>Searching anything</a>
                 <a>
