@@ -10,16 +10,16 @@ function NavBar() {
                 <div >
                     <a href="/"><img className='container mt-3 ms-3 w-75' src={Logo} /></a>
                 </div>
-                <div>
+                <div className='searching-bar pt-3 pb-3 w-50'>
                     <a>
-                        <a>Searching anything</a>
+                        <a className='me-3 ms-3'>All categories</a>
                         <a>Searching anything</a>
                     </a>
-                    <a><FontAwesomeIcon icon={faSearch}/></a>
+                    <a className='me-3'><FontAwesomeIcon icon={faSearch}/></a>
                 </div>
                 <a>
                     <a>Shopping</a>
-                    <a>Account</a>
+                    <a className='me-3'>Account</a>
                 </a>
             </a>
         </div>
