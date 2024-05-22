@@ -9,7 +9,7 @@ function HomePage() {
             <NavBar/>
             <div className='wrapper1'>
                 <div>
-                    <img className='container mt-3 ms-3 w-100 h-100' src={Wrapper1}/>
+                    <img className='container mt-4 w-100 h-100' src={Wrapper1}/>
                 </div>
             </div>
         </div>

@@ -13,8 +13,11 @@ function NavBar() {
                 </div>
                 <SearchingBar />
                 <div className='nav-bar-user mt-4 me-5 ms-3'>
-                    <a href="#"><FontAwesomeIcon icon={faCartShopping} /><a className='me-4'>Shopping</a></a>
-                    <a href="#"><FontAwesomeIcon icon={faUser} /><a className=''>Account</a></a>
+                    <a href="#"><FontAwesomeIcon icon={faCartShopping} className='shopping-cart-style me-5' /></a>
+                    <a className='user-account-name' href="#">
+                        <a href="#"><FontAwesomeIcon className='user-profile-style' icon={faUser}/></a>
+                        <a className='account-name-show me-4'>Account</a>
+                    </a>
                 </div>
             </div>
         </div>
