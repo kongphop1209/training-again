@@ -34,4 +34,12 @@
   color: black;
 }
 
+.search-input {
+  width: 25vw;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: smaller;
+}
+
 

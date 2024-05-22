@@ -11,17 +11,17 @@ function NavBar() {
                     <a href="/"><img className='container mt-3 ms-3 w-75' src={Logo} /></a>
                 </div>
                 <div className='searching-bar pt-3 pb-3 w-50'>
-                    <a>
+                    <div>
                         <a className='all-cate me-3 ms-4'>
-                            <a href='#' className='me-2 ms-'>All categories</a>
+                            <a href='#' className='no-text-decoration me-2 ms-2'>All categories</a>
                             <FontAwesomeIcon style={{color:'black'}} icon={faAngleDown}/>
                         </a>
-                        <input className="search-input" type="text" placeholder="Search Anything" />
-                    </a>
+                        <input className="search-input" type="text" placeholder="Search anything" />
+                    </div>
                     <a className='me-3' ><FontAwesomeIcon icon={faSearch}/></a>
                 </div>
                 <a>
-                    <a>Shopping</a>
+                    <a className='me-3'>Shopping</a>
                     <a className='me-3'>Account</a>
                 </a>
             </a>
