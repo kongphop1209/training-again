@@ -18,28 +18,27 @@
 
 .searching-bar {
   display: flex;
-  justify-content: space-between;
   background: white;
   border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .all-cate {
-  background: rgb(221, 221, 221);
+  background: rgb(238, 238, 238);
   padding: 10px;
   border-radius: 30px;
 }
 
-.no-text-decoration {
-  text-decoration: none;
-  color: black;
-}
-
 .search-input {
-  width: 25vw;
   outline: none;
   border: none;
   background: transparent;
   font-size: smaller;
 }
 
+.nav-bar-user a {
+  color: white;
+  text-decoration: none;
+}
 
