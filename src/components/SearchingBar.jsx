@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function SearchingBar() {
   return (
-    <div className='searching-bar pt-3 pb-3 mt-4 w-75'>
+    <div className="searching-bar pt-3 pb-3 mt-4 w-50">
                     <a className='searching-row'>
-                        <a className='all-cate me-3 ms-4'>
+                        <a className="me-3 ms-4">
                             <a>All categories</a>
                             <FontAwesomeIcon icon={faAngleDown} />
                         </a>
