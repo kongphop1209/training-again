@@ -167,3 +167,10 @@
     width: 83vw;
   }
 }
+
+.Dotter-ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

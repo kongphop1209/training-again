@@ -1,7 +1,7 @@
 import { faAppleWhole } from "@fortawesome/free-solid-svg-icons/faAppleWhole"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import '../App.css'
-import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons"
+import { faAngleLeft, faAngleRight, faDotCircle } from "@fortawesome/free-solid-svg-icons"
 
 
 
@@ -22,11 +22,16 @@ function WrapperHomePage() {
             <a className="ms-5" href='#' style={{ color: 'white', fontSize: '1.3vw' }}>Shop Now</a>
             <a className="ms-1" href='#'><FontAwesomeIcon icon={faAngleRight} style={{ color: 'white', fontSize: '1.2vw' }} /></a>
           </div>
+          <div className="Dotter-ads ms-5 mb-3" style={{fontSize:'1.4vw'}}>
+            <a className="ms-5"><FontAwesomeIcon icon={faDotCircle} style={{ color: 'white',}}/></a>
+            <a className="ms-2"><FontAwesomeIcon icon={faDotCircle} style={{ color: 'white',}}/></a>
+            <a className="ms-2"><FontAwesomeIcon icon={faDotCircle} style={{ color: 'white',}}/></a>
+          </div>
         </div>
       </div>
       <div className="next-prev-wrapper">
-        <a href="#" ><FontAwesomeIcon icon={faAngleLeft} style={{color:'black',background:'orange', padding:'1vw',borderRadius:'50%', fontSize: '1.4vw'}}/></a>
-        <a href="#" ><FontAwesomeIcon icon={faAngleRight} style={{color:'black',background:'orange', padding:'1vw',borderRadius:'50%', fontSize: '1.4vw'}}/></a>
+        <a href="#" ><FontAwesomeIcon icon={faAngleLeft} style={{ color: 'black', background: 'orange', padding: '1vw', borderRadius: '50%', fontSize: '1.4vw' }} /></a>
+        <a href="#" ><FontAwesomeIcon icon={faAngleRight} style={{ color: 'black', background: 'orange', padding: '1vw', borderRadius: '50%', fontSize: '1.4vw' }} /></a>
       </div>
     </div>
 
