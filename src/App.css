@@ -128,12 +128,15 @@
   color: white;
   text-decoration: none;
 }
-
+/* >>>>>>>>>>>>>>>>>>>>>> Stop here*/
 .next-prev-wrapper {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  width: 70vw;
+  width: 70%;
+}
+.next-prev-wrapper a{
+  
 }
 
 @media (max-width: 845px) {
