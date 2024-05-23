@@ -25,8 +25,8 @@ function WrapperHomePage() {
         </div>
       </div>
       <div className="next-prev-wrapper">
-        <a href=""><FontAwesomeIcon icon={faAngleLeft}/></a>
-        <a href=""><FontAwesomeIcon icon={faAngleRight}/></a>
+        <a href="#" ><FontAwesomeIcon icon={faAngleLeft} style={{color:'black',background:'orange', padding:'1vw',borderRadius:'50%', fontSize: '1.4vw'}}/></a>
+        <a href="#" ><FontAwesomeIcon icon={faAngleRight} style={{color:'black',background:'orange', padding:'1vw',borderRadius:'50%', fontSize: '1.4vw'}}/></a>
       </div>
     </div>
 

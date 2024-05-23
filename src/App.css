@@ -109,7 +109,7 @@
 
 .wrapper-con {
   width: 100%;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
 }
@@ -140,15 +140,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  width: 80%;
-}
-.next-prev-wrapper a{
+  position: absolute;
+  width: 72vw;
+  left: 14%;
   
+}
+.next-prev-wrapper a {
+  background: white;
+  padding: 1vw;
+  border-radius: 50%; /* Make the border circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 845px) {
   .next-prev-wrapper {
-    width: 80vw;
+    left: 8.5%;
+    width: 83vw;
+  }
+}
+
+@media (max-width: 512px) {
+  .next-prev-wrapper {
+    left: 9.5%;
+    width: 83vw;
   }
 }
