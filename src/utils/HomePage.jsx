@@ -1,16 +1,14 @@
 
 import NavBar from '../components/NavBar'
-import Wrapper1 from '../assets/wrapper-1.png'
+import Wrapper1 from '../components/WrapperHomePage'
 
 
 function HomePage() {
     return (
         <div>
             <NavBar/>
-            <div className='wrapper1'>
-                <div>
-                    <img className='container mt-4 w-100 h-100' src={Wrapper1}/>
-                </div>
+            <div>
+                    <Wrapper1/>
             </div>
         </div>
     )

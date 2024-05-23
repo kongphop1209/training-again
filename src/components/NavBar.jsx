@@ -9,11 +9,11 @@ function NavBar() {
         <div>
             <div className='nav-bar-con'>
                 <div >
-                    <a href="/"><img className='container mt-3 ms-3 w-75' src={Logo} /></a>
+                    <a href="/"><img className='container mt-2 mb-1 ms-3 w-75' src={Logo} /></a>
                 </div>
                 <SearchingBar />
                 <div className='nav-bar-user mt-4 me-4 ms-4'>
-                    <a href="#"><FontAwesomeIcon icon={faCartShopping} className='shopping-cart-style me-4' /></a>
+                    <a href="#"><FontAwesomeIcon icon={faCartShopping} className='shopping-cart-style me-4 ' /></a>
                     <a className='user-account-name ms-3' href="#">
                         <a href="#"><FontAwesomeIcon className='user-profile-style' icon={faUser}/></a>
                         <a href="#">
