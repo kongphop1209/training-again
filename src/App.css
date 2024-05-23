@@ -112,13 +112,15 @@
   background-size: 100% 100%;
   height: 30vw;
   width: 70vw;
+  display: flex;
+  align-items: center;
 }
 
-@media (max-width: 512px) {
+@media (max-width: 845px) {
   .wrapper-home-page {
-    width: 90vw;
-    height: 30vw;
-    background-size: cover;
+    width: 80vw;
+    height: auto;
+    background-size: 100% 100%;
   }
 }
 
@@ -127,7 +129,15 @@
   text-decoration: none;
 }
 
-.wrapper-home-page .Row-1 {
+.next-prev-wrapper {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 70vw;
+}
+
+@media (max-width: 845px) {
+  .next-prev-wrapper {
+    width: 80vw;
+  }
 }
