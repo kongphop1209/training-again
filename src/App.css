@@ -58,7 +58,7 @@
 .shopping-cart-style {
   background: white;
   color: rgb(59, 59, 59);
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
 }
 
@@ -74,7 +74,7 @@
 
 .user-profile-style {
   color: black;
-  padding: 10px;
+  padding: 15px;
   background: white;
   border-radius: 10px;
 }
@@ -86,7 +86,7 @@
 
 }
 
-@media (max-width:1431.20px) {
+@media (max-width:1518px) {
   .account-name-show{
     display: none;
   }
