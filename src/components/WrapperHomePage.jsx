@@ -1,13 +1,13 @@
 import { faAppleWhole } from "@fortawesome/free-solid-svg-icons/faAppleWhole"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import '../App.css'
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
+import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons"
 
 
 
 function WrapperHomePage() {
   return (
-    <div>
+    <div className="wrapper-con">
       <div className="wrapper-home-page mx-auto my-4">
         <div className="ms-5">
           <div className="Row-1 ms-2 mt-3">
@@ -20,11 +20,14 @@ function WrapperHomePage() {
           </div>
           <div className="ms-2 mb-3">
             <a className="ms-5" href='#' style={{ color: 'white', fontSize: '1.3vw' }}>Shop Now</a>
-            <a className="ms-1"><FontAwesomeIcon icon={faAngleRight} style={{ color: 'white', fontSize: '1.2vw' }} /></a>
+            <a className="ms-1" href='#'><FontAwesomeIcon icon={faAngleRight} style={{ color: 'white', fontSize: '1.2vw' }} /></a>
           </div>
         </div>
       </div>
-      
+      <div className="next-prev-wrapper">
+        <a href=""><FontAwesomeIcon icon={faAngleLeft}/></a>
+        <a href=""><FontAwesomeIcon icon={faAngleRight}/></a>
+      </div>
     </div>
 
   )
